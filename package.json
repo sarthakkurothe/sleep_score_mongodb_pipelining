@@ -1,0 +1,13 @@
+{
+  "name": "perceived-energy-score",
+  "version": "1.0.0",
+  "description": "Calculate perceived energy scores using MongoDB aggregation pipeline",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "import": "node -e 'require(\"./src/import_data.js\").importData()'"
+  },
+  "dependencies": {
+    "mongodb": "^4.4.0"
+  }
+}
